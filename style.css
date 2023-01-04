@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    padding: 3em;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 3em;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 53px;
+    color: #333333;
+}
+
+.hamburger{
+    display: none;
+}
+
+header nav ul{
+    list-style-type: none;
+
+    justify-content: space-between;
+    display: flex;
+    width: 27em;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+
+#Home{
+    margin-left: 12rem;
+}
+
+#Home p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2D9CDB;
+
+    margin-bottom: 1rem;
+}
+
+#Home h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    color: #333333;
+
+    width: 40vw;
+}
+
+#Home h2:last-of-type{
+    width: 27vw;
+
+    margin-bottom: 3rem;
+}
+
+#Home p:last-of-type{
+    color:  #4F4F4F;
+    width: 27vw;
+
+    margin-bottom: 3rem;
+}
+
+#Home img{
+    width: 90vw;
+    border-radius: 18px;
+
+    margin: 3rem 0 3rem -12rem;
+}
+
+#Home label{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+    margin-bottom: 1rem;
+
+    color: #828282;
+}
+
+#Home input{
+    border: none;
+
+    background: #F2F2F2;
+    border-radius: 12px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #BDBDBD;
+
+    height: 57px;
+    width: 27vw;
+}
+
+#Home input:focus{
+   outline: 0;
+}
+
+button{
+    position: relative;
+    right: 5.4rem;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F2F2F2;
+
+
+    width: 4.5rem;
+    height: 2.7rem;
+
+    background: #2D9CDB;
+    border-radius: 12px;
+
+    border: none;
+    transition: all 0.5s;
+}
+
+button:hover{
+    background: #2d9cdbcc;
+    cursor: pointer;
+}
+
+@media(max-width: 950px){
+    .hamburger{
+        display: initial;
+    }
+
+    .hamburger:hover{
+        cursor: pointer;
+    }
+
+    nav{
+        display: none;
+    }
+}
