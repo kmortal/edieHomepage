@@ -1,8 +1,7 @@
-const naveg = document.querySelector('nav')
-
 function nav(){
-    console.log(naveg)
-    naveg.style.display = 'flex'
+    const hambruguer = document.querySelector('.hamburger')
+    const headerNav = document.querySelector('header nav')
 
-    naveg.classList.toggle('nav')
+    headerNav.classList.toggle('navHeader')
+    hambruguer.classList.toggle('hamb')
 }

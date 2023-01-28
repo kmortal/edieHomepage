@@ -1,0 +1,136 @@
+@media(max-width: 950px){
+    body{
+        padding: 1em 1em 0;
+    }
+
+    .hamburger{
+        display: initial;
+    }
+
+    .hamburger:hover{
+        cursor: pointer;
+    }
+
+    nav{
+        width: 0;
+        overflow: hidden;
+        transform: scale(0);
+        flex-grow: 2;
+    }
+
+    header nav ul{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 5em;
+        width: 100%;
+    }
+    
+    .navHeader {
+        display: flex;
+        transform: scale(1);
+    }
+
+    #Home{
+        margin: 1em;
+    }
+
+    #Home p{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+
+        width: 80vw;
+    }
+
+    #Home h2{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+
+        width: 80vw;
+    }
+
+    #Home p:last-of-type, #Home h2:last-of-type{
+        width: 80vw;
+    }
+
+    #Home label{
+        font-weight: 500px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    #Home img{
+        margin: 0;
+        width: 80vw;
+    }
+
+    #Home input{
+        width: 40vw;
+        height: 2.5em;
+
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    #Home button{
+        width: 3em;
+        height: 2em;
+
+        right: 3.5em;
+
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    #Services h2{
+        font-size: 24px;
+        line-height: 36px;
+        width: 63vw;
+    }
+
+    #OurWorks #container{
+        width: 90%;
+        height: 100%;
+        gap: 3em;
+    }
+
+    #OurWorks #container section{
+        width: 100%;
+        height: 20%;
+    }
+
+    #OurWorks .flexend{
+        align-self: initial;
+    }
+
+    #OurWorks h2{
+        width: 80vw;
+    }
+
+    #OurWorks img{
+        width: 80%;
+    }
+    
+    #OurWorks figcaption{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    
+    #OurWorks #container h3{
+        font-size: 18px;
+        line-height: 27px;
+    }
+}
+
+@media (max-width: 750px) {
+    #OurWorks #container{
+        height: 100%;
+}
+
+    #OurWorks img{
+        width: 100%;
+    }
+}
